@@ -1,13 +1,20 @@
+
 <%= form_for(@item) do |val| %>
-    <%= val.label :label %><br>
-    <%= val.text_area :item %>
+    <%= val.label :list, placeholder: "add list:" %><br>
+    <%= val.text_area :item, class: "form-control" %>
     
-    <%= val.submit :add %>
+    <%= val.submit :"add list", class: "btn btn-primary"%>
 <% end %>
 
+<br>
+
+<h3>Here is your to do list:</h3>
 <ul class="list-group">
     <% @all_items.each do |i| %>
-        <li class="list-group-item"><%= i.item %></li>
+        <li class="list-group-item">
+            <%= i.item %>
+            <%= link_to 'Delete this item', item_path(i), method: :delete, class: "btn btn-xs btn-danger pull-right" %>
+        </li>
     <% end %>
   
 </ul>
