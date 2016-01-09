@@ -3,4 +3,4 @@
 To Do List application using Ruby on Rails
 Front end: Bootstrap
 
-![alt tag](https://raw.github.com/fadhilfath/ToDoListApp/blob/master/app/assets/images/todolist.png)
+![alt tag](https://raw.githubusercontent.com/fadhilfath/ToDoListApp/master/app/assets/images/todolist.png)
