@@ -1,0 +1,13 @@
+<%= form_for(@item) do |val| %>
+    <%= val.label :label %><br>
+    <%= val.text_area :item %>
+    
+    <%= val.submit :add %>
+<% end %>
+
+<ul class="list-group">
+    <% @all_items.each do |i| %>
+        <li class="list-group-item"><%= i.item %></li>
+    <% end %>
+  
+</ul>
