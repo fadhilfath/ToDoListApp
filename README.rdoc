@@ -1,7 +1,7 @@
 == README
 
-#####To Do List application using Ruby on Rails
-#####Front end: Bootstrap
+*To Do List application using Ruby on Rails
+*Front end: Bootstrap
 
-#####Screenshot what it looks like
+*Screenshot what it looks like
 https://raw.githubusercontent.com/fadhilfath/ToDoListApp/master/app/assets/images/todolist.png
